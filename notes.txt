@@ -1,0 +1,3 @@
+Solution oluşturma komutu => dotnet new sln -o sln_name
+yeni boş .net projesi oluşturma şloşşşşşşşşşşşşşşşşşşşşşşşşşşşşşşşşşşş=>  dotnet new web -f net6.0 -o target_directory
+projeyi solution'a ekleme komutu => dotnet sln sln_directory add app_directory
