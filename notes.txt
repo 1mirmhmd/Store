@@ -4,3 +4,6 @@ projeyi solution'a ekleme komutu => dotnet sln sln_directory add app_directory
 nuget paket yöneticisi
 Sqlite entityfw ekleme komutu(nuget sitesinden komut alındı) =>  dotnet add package Microsoft.EntityFrameworkCore.Sqlite.Core --version 9.0.0
 eklenen komutları listeleme komutu=> dotnet list package
+design kurma komutu => dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.0
+dotnet tool => Uygulamayı geliştirmek için gereken araçları belirtir
+dotnet ef tool'unu indirme komutu => dotnet tool install --global dotnet-ef --version 6.0.0
