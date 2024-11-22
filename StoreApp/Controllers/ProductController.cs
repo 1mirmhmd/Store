@@ -6,12 +6,19 @@ namespace StoreApp.Controllers
 {
     public class ProductController : Controller
     {
-        public IEnumerable<Product> Index()
+        //Dependency Injection pattern'i
+        private readonly RepositoryContext _context;
+        public ProductController(RepositoryContext context)
         {
-            var context = new RepositoryContext(
-                new DbContextOptionsBuilder<RepositoryContext>().UseSqlite("Data Source = C:\\Users\\miruz\\OneDrive\\Belgeler\\MVC\\ProductDb.db").Options
-            );
-            return context.Products;
+            _context = context;
+        }
+        public IEnumerable<Product> Index()
+
+        {   // Dependency Injection ile buna gerek kalmadı
+            // var context = new RepositoryContext(
+            //     new DbContextOptionsBuilder<RepositoryContext>().UseSqlite("Data Source = İC:\\Users\\miruz\\OneDrive\\Belgeler\\MVC\\ProductDb.db").Options
+            // );
+            return _context.Products;
             // yukarıda dbcontext bağlantısı olmadan veriyi gösterir 
             // return new List<Product>(){
             //     new Product(){ProductId=1, ProductName="Computer",Price=500000}};
