@@ -12,16 +12,12 @@ namespace StoreApp.Controllers
         {
             _context = context;
         }
-        public IEnumerable<Product> Index()
+        public IActionResult Index()
 
-        {   // Dependency Injection ile buna gerek kalmadı
-            // var context = new RepositoryContext(
-            //     new DbContextOptionsBuilder<RepositoryContext>().UseSqlite("Data Source = İC:\\Users\\miruz\\OneDrive\\Belgeler\\MVC\\ProductDb.db").Options
-            // );
-            return _context.Products;
-            // yukarıda dbcontext bağlantısı olmadan veriyi gösterir 
-            // return new List<Product>(){
-            //     new Product(){ProductId=1, ProductName="Computer",Price=500000}};
+        {
+            var model = _context.Products.ToList();
+            return View(model);
         }
+        
     }
 }
