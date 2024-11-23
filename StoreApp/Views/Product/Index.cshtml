@@ -1,20 +1,18 @@
+@{
+    Layout = "_Layout";
+}
 @model List<StoreApp.Models.Product>
-<!DOCTYPE html>
-<html lang="en">
+@section Footer {
+    <div>
+        Only for Index footer
+    </div>
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-
-<body>
-    @foreach (StoreApp.Models.Product product in Model)
-    {
-        <div>
-            <h3>@product.ProductName</h3>
-            <p>@product.Price</p>
-            <a href="/Product/Get/@product.ProductId">Get Details</a>
-        </div>
-    }
-</body>
+@foreach (StoreApp.Models.Product product in Model)
+{
+    <div>
+        <h3>@product.ProductName</h3>
+        <p>@product.Price</p>
+        <a href="/Product/Get/@product.ProductId">Get Details</a>
+    </div>
+}
