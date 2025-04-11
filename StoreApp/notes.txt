@@ -12,7 +12,9 @@ db'e yansıtma komutu => dotnet ef database update
 veriyi db'e alma komutu => dotnet ef migrations add ProductSeedData
 
 sqlite komutları: 
-    sqlite'te dosya açmak için sqlite3 dosya_adı.db kullanılır
+    sqlite'te dosya açmak için terminale sqlite3 dosya_adı.db komutu kullanılır
+    .tables => tabloları gösteren komut
+    .quit => sqlite3 çıkmayı sağlayan komut
     .help komutları gösteren yardımcı komuttur
     sistemle ilgili komutlar için .system kullanılır
     sql cümlesi direk yazılır
