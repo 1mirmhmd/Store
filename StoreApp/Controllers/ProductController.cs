@@ -8,15 +8,12 @@ namespace StoreApp.Controllers
     {
         public IEnumerable<Product> Index()
         {
-            // Bu şekilde veriye ulaşabiliriz
-            return new List<Product>()
-            {
-                new Product(){
-                    ProductId=1,
-                    ProductName="USB connecter",
-                    Price=123
-                }
-            };
+            // Db'teki veriyi alma
+            var context = new RepositoryContext(
+                new DbContextOptionsBuilder<RepositoryContext>().UseSqlite("Data Source=C:\\Users\\miruz\\Documents\\MVC\\ProductDb.db").Options
+            );
+
+            return context.Products;
         }
     }
 }
