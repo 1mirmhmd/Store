@@ -58,3 +58,4 @@ C:\Users\miruz\Documents\MVC\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x86\na
 C:\Users\miruz\Documents\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.AssemblyReference.cache
 C:\Users\miruz\Documents\MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.Up2Date
 C:\Users\miruz\Documents\MVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
+C:\Users\miruz\Documents\MVC\Store\StoreApp\bin\Debug\net6.0\libman.json
