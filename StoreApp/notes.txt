@@ -22,3 +22,9 @@ sqlite komutları:
     .mode => tablonun nasıl gösterileceğini belirtir
     sql komutları ile tablolar çekilir => select * from Products;
     sql cümlesi direk yazılır
+
+libman(library manager) tool'u ile kütüphane ekleme komutu
+libman init -p cdnjs => cdnjs başlatma komutu
+libman install bootstrap -d wwwroot/lib/bootstrap => bootstrap'i belirtilen konuma kurma komutu 
+libman install font-awesome -d wwwroot/lib/font-awesome => font-awesome belirtilen konuma kurma komutu
+libman install jquery -d wwwroot/lib/jquery =>  jquery belirtilen konuma kurma komutu
