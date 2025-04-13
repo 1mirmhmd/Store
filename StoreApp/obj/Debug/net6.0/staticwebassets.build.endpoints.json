@@ -1,5 +1,88 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "html/Error.html",
+      "AssetFile": "html/Error.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8n+kTVCWa+6gXGA5eFdJUfH0P/lnOM6QwCsop/gUD74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 09:08:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8n+kTVCWa+6gXGA5eFdJUfH0P/lnOM6QwCsop/gUD74="
+        }
+      ]
+    },
+    {
+      "Route": "html/Error.ucghflzgoh.html",
+      "AssetFile": "html/Error.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8n+kTVCWa+6gXGA5eFdJUfH0P/lnOM6QwCsop/gUD74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 09:08:55 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ucghflzgoh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8n+kTVCWa+6gXGA5eFdJUfH0P/lnOM6QwCsop/gUD74="
+        },
+        {
+          "Name": "label",
+          "Value": "html/Error.html"
+        }
+      ]
+    }
+  ]
 }

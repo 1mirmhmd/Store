@@ -12,6 +12,7 @@ builder.Services.AddDbContext<RepositoryContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"));
 });
 var app = builder.Build();
+app.UseStaticFiles(); // projede wwwroot içerisindeki static dosyaların kullanılması için konfigurasyon
 app.UseHttpsRedirection();
 app.UseRouting();
 app.MapControllerRoute( // bu şekilde de olabilir => ("default","{controller=Home}/{Action=Index}/{id?}");
