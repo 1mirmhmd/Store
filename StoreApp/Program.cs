@@ -10,7 +10,8 @@ builder.Services.AddControllersWithViews();
 //Requestleri çözerken ihtiyaç olması durumunda veritabanı da kullanılması gerektiği bildiriliyor
 builder.Services.AddDbContext<RepositoryContext>(options =>
 {
-    options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"));
+    options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"),
+    b => b.MigrationsAssembly("StoreApp"));
 });
 var app = builder.Build();
 app.UseStaticFiles(); // projede wwwroot içerisindeki static dosyaların kullanılması için konfigurasyon
