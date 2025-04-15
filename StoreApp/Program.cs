@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using StoreApp.Models;
+using Repositories;
+
 
 var builder = WebApplication.CreateBuilder(args);
 // Servis kaydı gerçekleştirildi. Middleware yapıları ile kullanılabilir
