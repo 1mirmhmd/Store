@@ -63,4 +63,3 @@ C:\Users\miruz\Documents\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.dll
 C:\Users\miruz\Documents\MVC\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
 C:\Users\miruz\Documents\MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
 C:\Users\miruz\Documents\MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb
-C:\Users\miruz\Documents\MVC\Store\StoreApp\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
