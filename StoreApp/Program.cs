@@ -17,6 +17,7 @@ builder.Services.AddDbContext<RepositoryContext>(options =>
 // IoC kayıtları
 builder.Services.AddScoped<IRepositoryManager, RepositoryManger>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 var app = builder.Build();
 app.UseStaticFiles(); // projede wwwroot içerisindeki static dosyaların kullanılması için konfigurasyon
 app.UseHttpsRedirection();

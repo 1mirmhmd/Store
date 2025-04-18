@@ -10,7 +10,7 @@ dotnet ef tool'unu indirme komutu => dotnet tool install --global dotnet-ef --ve
 db bağlantıları başlatma komutu => dotnet ef migrations add init
 
 db'e yansıtma komutu => dotnet ef database update
-EntFW migrasyonu oluşturma komutu => dotnet ef migrations add ProductSeedData
+EntFW migrasyonu oluşturma komutu => dotnet ef migrations add ProductSeedData | dotnet ef migrations add Category
 
 sqlite komutları: 
     sqlite'te dosya açmak için terminale sqlite3 dosya_adı.db komutu kullanılır
