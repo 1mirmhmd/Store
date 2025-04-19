@@ -31,5 +31,5 @@ libman install jquery -d wwwroot/lib/jquery =>  jquery belirtilen konuma kurma k
 
 
 classlib oluşturma komutu örneği  => dotnet new classlib -f net6.0 -o .\Store\Entities 
-classlib'i mevcut sln'a ekleme öreği => dotnet sln .\Store add .\Entities\
+classlib'i mevcut sln'a ekleme öreği => dotnet sln .\Store.sln add .\Entities\
 projeye renerans verme komutu örneği => dotnet add .\Store\StoreApp\ reference .\Store\Entities\
