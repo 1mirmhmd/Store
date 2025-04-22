@@ -28,7 +28,15 @@ var app = builder.Build();
 app.UseStaticFiles(); // projede wwwroot içerisindeki static dosyaların kullanılması için konfigurasyon
 app.UseHttpsRedirection();
 app.UseRouting();
-app.MapControllerRoute( // bu şekilde de olabilir => ("default","{controller=Home}/{Action=Index}/{id?}");
-    name: "default",
-    pattern: "{controller=Home}/{Action=Index}/{id?}");
+
+// birden fazla endpoint kullanıldığı durumda aşağıdaki şekilde olduğu gibi olur 
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapAreaControllerRoute(
+    name: "Admin",
+    areaName: "Admin",
+    pattern: "Admin/{controller=Dashboard}/{action=Index}/{id?}"
+);
+    endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+});
 app.Run();
