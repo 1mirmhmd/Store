@@ -3,6 +3,18 @@
     Layout = "_Layout";
 }
 @model IQueryable<Product>
+    <div class="row">
+    <div class="col-md-3">
+ 1       
+    </div>
+    <div class="col-md-9">
+@foreach (Product product in Model)
+{
+        <partial name="_ProductCard" model="@product" />
+}
+</div>
+    </div>
+    </div>
 
 @* Section'lar sayfa gerekliliğine göre kullanılabilir. Belirleneceği alan fark etmiyor. *@
 @section Footer {
