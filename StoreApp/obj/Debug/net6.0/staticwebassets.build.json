@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/mXw3RdGkrQjbMZDgjo9LpD8g3B5x3dId6tCVL3mYtc=",
+  "Hash": "gMIcIQotDmIRImZKXiedyOI9Ta/u6IjNK335Xxbhzc8=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h9msa6agk2",
-      "Integrity": "S97UWXLt6xn7XHbZaETAhg9r3TiFoBmxAdXctrlNRPw=",
+      "Fingerprint": "q3op73j0ux",
+      "Integrity": "Rsk1wiNE2wYmnQkoBGJioRPC4bqV+7myBGnLV1tSZg0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\default.jpg"
@@ -4152,51 +4152,6 @@
       ]
     },
     {
-      "Route": "images/default.h9msa6agk2.jpg",
-      "AssetFile": "C:\\Users\\miruz\\Documents\\MVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8179"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"S97UWXLt6xn7XHbZaETAhg9r3TiFoBmxAdXctrlNRPw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 20:26:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h9msa6agk2"
-        },
-        {
-          "Name": "label",
-          "Value": "images/default.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-S97UWXLt6xn7XHbZaETAhg9r3TiFoBmxAdXctrlNRPw="
-        }
-      ]
-    },
-    {
       "Route": "images/default.jpg",
       "AssetFile": "C:\\Users\\miruz\\Documents\\MVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
       "Selectors": [],
@@ -4207,7 +4162,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8179"
+          "Value": "16146"
         },
         {
           "Name": "Content-Type",
@@ -4215,11 +4170,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S97UWXLt6xn7XHbZaETAhg9r3TiFoBmxAdXctrlNRPw=\""
+          "Value": "\"Rsk1wiNE2wYmnQkoBGJioRPC4bqV+7myBGnLV1tSZg0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 13 Apr 2025 20:26:04 GMT"
+          "Value": "Tue, 22 Apr 2025 14:03:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4229,7 +4184,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-S97UWXLt6xn7XHbZaETAhg9r3TiFoBmxAdXctrlNRPw="
+          "Value": "sha256-Rsk1wiNE2wYmnQkoBGJioRPC4bqV+7myBGnLV1tSZg0="
+        }
+      ]
+    },
+    {
+      "Route": "images/default.q3op73j0ux.jpg",
+      "AssetFile": "C:\\Users\\miruz\\Documents\\MVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rsk1wiNE2wYmnQkoBGJioRPC4bqV+7myBGnLV1tSZg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:03:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q3op73j0ux"
+        },
+        {
+          "Name": "label",
+          "Value": "images/default.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rsk1wiNE2wYmnQkoBGJioRPC4bqV+7myBGnLV1tSZg0="
         }
       ]
     },

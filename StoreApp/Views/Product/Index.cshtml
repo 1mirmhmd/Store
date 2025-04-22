@@ -3,18 +3,18 @@
     Layout = "_Layout";
 }
 @model IQueryable<Product>
-    <div class="row">
+<div class="row">
     <div class="col-md-3">
- 1       
+        @await Component.InvokeAsync("CategoriesMenu")
     </div>
     <div class="col-md-9">
-@foreach (Product product in Model)
-{
-        <partial name="_ProductCard" model="@product" />
-}
+        @foreach (Product product in Model)
+        {
+            <partial name="_ProductCard" model="@product" />
+        }
+    </div>
 </div>
-    </div>
-    </div>
+</div>
 
 @* Section'lar sayfa gerekliliğine göre kullanılabilir. Belirleneceği alan fark etmiyor. *@
 @section Footer {
@@ -23,8 +23,3 @@
     </div>
 }
 <div class="row my-3">
-@foreach (Product product in Model)
-{
-        <partial name="_ProductCard" model="@product" />
-}
-</div>
