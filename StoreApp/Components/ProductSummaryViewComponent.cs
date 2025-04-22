@@ -4,12 +4,12 @@ using Services.Contracts;
 
 namespace StoreApp.Components
 {
-    public class ProductSummary : ViewComponent
+    public class ProductSummaryViewComponent : ViewComponent
     {
         // Önerilmeyen kullanım!
         private readonly IServiceManager _manager;
-
-        public ProductSummary(IServiceManager manager)
+        // Dosya adı konusunda sorunla karşılaşması durumunda haa vereceğinden dolayı ViewComponent eklenir
+        public ProductSummaryViewComponent(IServiceManager manager)
         {
             _manager = manager;
         }
